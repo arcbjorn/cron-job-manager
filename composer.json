@@ -1,0 +1,15 @@
+{
+    "name": "arcbjorn/cron-job-manager",
+    "description": "Web-based cron job manager with monitoring, history, and alerts",
+    "type": "project",
+    "require": {
+        "php": "^7.3",
+        "laravel/framework": "6.0.*",
+        "dragonmantank/cron-expression": "^2.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        }
+    }
+}
